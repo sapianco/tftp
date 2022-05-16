@@ -9,7 +9,7 @@ ENV LOG_LEVEL INFO
 VOLUME /tftpboot
 
 #Install TFTP
-RUN apk add --no-cache tftp-hpa
+RUN apk add --no-cache tftp-hpa vim
 
 #Expose 69 UDP
 EXPOSE 69/udp
